@@ -1,17 +1,19 @@
-<mat-toolbar color="primary" class="mat-elevation-z8" >
-        <div>
-            <span>
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <div>
+        <span>
+            <a style="text-decoration: none; color: #fff; font-size: 25px;" routerLink="">
                 <mat-icon>fitness_center</mat-icon>
                 GetFit
-            </span>
-        </div>
-        <!-- <div class="spacer"></div> -->
+            </a>
+        </span>
+    </div>
+    <div class="spacer"></div>
 
-        <div fxFill fxLayoutAlign="end">
-            <button mat-button routerLink=''>Home</button>
-            <button mat-button>Service</button>
-            <button mat-button>About</button>
-            <button mat-button style="background-color: green;">Add Member</button>
-        </div>
+    <div>
+        <button mat-button routerLink=''>Home</button>
+        <button mat-button routerLink='products'>Products</button>
+        <button mat-button routerLink='about'>About</button>
+        <button mat-button><mat-icon style="font-size: 25px;">shopping_cart</mat-icon></button>
+    </div>
 
 </mat-toolbar>

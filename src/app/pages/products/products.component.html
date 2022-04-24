@@ -1,0 +1,18 @@
+<div>
+    <div fxLayout="row wrap" fxLayoutGap="1rem" fxLayoutAlign="center center" class="">
+        <mat-card class="example-card" *ngFor="let pd of productDetails">
+
+            <mat-card-header class="example-card">
+                <img mat-card-avatar src="pd.productImg" class="example-header-image">
+            </mat-card-header>
+                <div class="title">
+                    <mat-card-title>{{pd.productName}}</mat-card-title>
+                    <mat-card-content>
+                        <p>{{pd.productDescription}}</p>
+                      </mat-card-content>
+                      <mat-card-subtitle>{{pd.productPrice}}</mat-card-subtitle>
+                </div>
+            
+        </mat-card>
+    </div>
+</div>
