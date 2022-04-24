@@ -1,14 +1,17 @@
-<mat-toolbar color="primary" class="mat-elevation-z8">
+<mat-toolbar color="primary" class="mat-elevation-z8" >
         <div>
             <span>
                 <mat-icon>fitness_center</mat-icon>
                 GetFit
             </span>
         </div>
-        <div fxFill fxLayout="column" fxLayoutAlign="end center">
-            <button mat-button>Home</button>
+        <!-- <div class="spacer"></div> -->
+
+        <div fxFill fxLayoutAlign="end">
+            <button mat-button routerLink=''>Home</button>
             <button mat-button>Service</button>
             <button mat-button>About</button>
+            <button mat-button style="background-color: green;">Add Member</button>
         </div>
 
 </mat-toolbar>
